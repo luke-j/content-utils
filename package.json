@@ -1,0 +1,29 @@
+{
+  "name": "content-utils",
+  "version": "1.0.2-alpha",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "https://github.com/luke-j/content-utils",
+  "author": {
+    "name": "Luke Jones",
+    "email": "luke@lukejones.co",
+    "url": "lukejones.co"
+  },
+  "bin": {
+    "content-utils": "./content-utils.js"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "dependencies": {
+    "chalk": "2.4.1",
+    "commander": "2.19.0",
+    "contentful-management": "5.4.0",
+    "faker": "4.1.0",
+    "lodash.chunk": "4.2.0",
+    "promise-queue": "2.2.5"
+  },
+  "devDependencies": {
+    "prettier": "1.15.2"
+  }
+}
